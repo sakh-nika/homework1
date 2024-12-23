@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Домашнее задание</h1>
-    
+    <header class="header center">
+        <h1 class="header__title">Добро пожаловать<br>на мой сайт мини-игр</h1>
+        <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай <b>«Поехали!»</b> и <b>приступай</b>.</p>
+        <button class="header__button" type="button">Поехали!</button>
+    </header>
+    <section class="about-games center">
+        <h2 class="about-games__title">Об играх</h2>
+        <p class="about-games__text">В моей коллекции представлено 6 игр на разные темы.<br>Игры несложные — в них может поиграть каждый.<br>Все игры доступны для пользования.</p>
+        <div class="about-games__box">
+            <a class="game-link game-link_1" href="#">
+                <article class="game-card">
+                    <img class="game-card__img" src="images/game1.png" alt="Игра № 1">
+                    <div class="game-card__info">
+                        <p class="game-card__number">Игра № 1</p>
+                        <p class="game-card__name">Угадай число</p>
+                    </div>
+                </article>
+            </a>
+            <a class="game-link game-link_2" href="#">
+                <article class="game-card game-card_height">
+                    <img class="game-card__img" src="images/game2.png" alt="Игра № 2">
+                    <div class="game-card__info">
+                        <p class="game-card__number">Игра № 2</p>
+                        <p class="game-card__name">Простая арифметика</p>
+                    </div>
+                </article>
+            </a>
+            <a class="game-link game-link_3" href="#">
+                <article class="game-card">
+                    <img class="game-card__img" src="images/game3.png" alt="Игра № 3">
+                    <div class="game-card__info">
+                        <p class="game-card__number">Игра № 3</p>
+                        <p class="game-card__name">Переверни текст</p>
+                    </div>
+                </article>
+            </a>
+            <a class="game-link game-link_4" href="#">
+                <article class="game-card game-card_height">
+                    <img class="game-card__img" src="images/game4.png" alt="Игра № 4">
+                    <div class="game-card__info">
+                        <p class="game-card__number">Игра № 4</p>
+                        <p class="game-card__name">Камень,<br>ножницы,<br>бумага</p>
+                    </div>
+                </article>
+            </a>
+            <a class="game-link game-link_5" href="#">
+                <article class="game-card">
+                    <img class="game-card__img" src="images/game5.png" alt="Игра № 5">
+                    <div class="game-card__info">
+                        <p class="game-card__number">Игра № 5</p>
+                        <p class="game-card__name">Простая викторина</p>
+                    </div>
+                </article>
+            </a>
+            <a class="game-link game-link_6" href="#">
+                <article class="game-card game-card_height">
+                    <img class="game-card__img" src="images/game6.png" alt="Игра № 6">
+                    <div class="game-card__info">
+                        <p class="game-card__number">Игра № 6</p>
+                        <p class="game-card__name">Генератор случайных цветов</p>
+                    </div>
+                </article>
+            </a>
+        </div>
+    </section>
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>
 </body>
 </html>
